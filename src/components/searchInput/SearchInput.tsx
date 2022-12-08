@@ -5,7 +5,7 @@ import Error from '../error/Error';
 import Loading from '../loading/Loading';
 import PokemonInfo from '../pokemonInfo/PokemonInfo';
 
-const SearchBar = () => {
+const SearchInput = () => {
   const [pokemonName, setPokemonName] = useState<string>("");
   const [pokemonData, setPokemonData] = useState<null | any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -63,7 +63,7 @@ const SearchBar = () => {
   )
 }
 
-export default SearchBar
+export default SearchInput
 
 const SearchWrapper = styled.section`
   width: 600px;
