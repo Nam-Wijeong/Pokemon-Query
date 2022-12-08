@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import Header from '../components/header/Header'
-import SearchBar from '../components/searchBar/SearchBar'
+import SearchInput from '../components/searchInput/SearchInput'
 
 const Home = () => {
   return (
     <AllWrapper>
       <Header />
-      <SearchBar />
+      <SearchInput />
     </AllWrapper>
   )
 }
