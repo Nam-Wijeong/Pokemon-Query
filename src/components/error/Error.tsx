@@ -18,4 +18,7 @@ const ErrorMessage = styled.p`
   margin-top: 56px;
   color: red;
   text-align: center;
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
 `

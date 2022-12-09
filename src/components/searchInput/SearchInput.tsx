@@ -66,7 +66,7 @@ const SearchInput = () => {
 export default SearchInput
 
 const SearchWrapper = styled.section`
-  width: 600px;
+  width: 100%;
   margin: 40px auto;
 `
 
@@ -77,6 +77,9 @@ const SearchTitle = styled.h1`
   text-align: center;
   margin-bottom: 40px;
   color: #fff;
+  @media screen and (max-width: 480px) {
+    font-size: 28px; 
+  }
 `
 
 const SearchForm = styled.form`
@@ -91,6 +94,9 @@ const SearchLabel = styled.label`
   font-weight: 600;
   font-family: 'Gill Sans';
   color: #fff;
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
 `
 
 const SearchInp = styled.input`
@@ -99,6 +105,9 @@ margin: 0 10px;
 padding: 8px;
 border-radius: 6px;
 color: #212121;
+@media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
 `
 
 const SearchSubmit = styled.input`
@@ -107,6 +116,9 @@ const SearchSubmit = styled.input`
   color: #fff;
   padding: 8px;
   border-radius: 6px;
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
 `
 
 const SearchClearBtn = styled.button`
@@ -116,4 +128,7 @@ const SearchClearBtn = styled.button`
   margin-left: 10px;
   padding: 8px;
   border-radius: 6px;
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
 `

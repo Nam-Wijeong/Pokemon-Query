@@ -15,4 +15,7 @@ const LogoImg = styled.img`
   display: block;
   width: 350px;
   margin: 0 auto;
+  @media screen and (max-width: 480px) {
+    width: 250px;
+  }
 `

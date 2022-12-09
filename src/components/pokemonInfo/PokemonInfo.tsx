@@ -40,6 +40,10 @@ const PokemonWrap = styled.article`
   width: 500px;
   margin: 0 auto;
   padding: 16px;
+  @media screen and (max-width: 480px) {
+    font-size: 28px; 
+    width: 340px;
+  }
 `
 
 const PokemonImgWrap = styled.div`
@@ -53,6 +57,10 @@ const PokemonImg = styled.img`
   width: 160px;
   height: 120px;
   margin-bottom: 16px;
+  @media screen and (max-width: 480px) {
+    width: 100px;
+    height: 80px;
+  }
 `
 
 const PokemonName = styled.p`
@@ -60,6 +68,9 @@ const PokemonName = styled.p`
   font-weight: 600;
   color: #212121;
   font-family: 'Gill Sans';
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
 `
 
 const PokemonInfoList = styled.ul`
@@ -75,4 +86,7 @@ const PokemonInfoItem = styled.li`
   font-weight: 500;
   margin: 16px 0;
   color: #212121;
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `

@@ -26,4 +26,7 @@ const LoadingMessage = styled.div`
   font-family: 'Gill Sans';
   color: #fff;
   margin-top: 16px;
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
 `
