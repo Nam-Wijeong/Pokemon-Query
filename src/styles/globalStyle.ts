@@ -5,7 +5,7 @@ const GlobalStyles = createGlobalStyle`
 ${reset}
 * {
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans';
 }
 button {
   border: none;
