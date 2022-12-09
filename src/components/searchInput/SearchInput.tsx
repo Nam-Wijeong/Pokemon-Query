@@ -98,6 +98,7 @@ font-size: 18px;
 margin: 0 10px;
 padding: 8px;
 border-radius: 6px;
+color: #212121;
 `
 
 const SearchSubmit = styled.input`
