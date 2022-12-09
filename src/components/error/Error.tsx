@@ -1,9 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-const Error = (props: object | any) => {
-  const { children } = props;
-
+const Error = ({ children }: string | any) => {
   return (
     <ErrorMessage>
       {children}
