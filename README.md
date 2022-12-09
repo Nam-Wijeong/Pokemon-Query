@@ -34,5 +34,10 @@
 - 검색 결과가 나오기 전까지 검색창 아래에 로딩 화면이 나옵니다.
 - Reset 버튼을 누르면 검색 결과를 초기화할 수 있습니다.
 
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/99578007/206623312-8532783b-458b-46b2-84fd-4026e525cfaf.png"> <img width="300" alt="image" src="https://user-images.githubusercontent.com/99578007/206623391-f9a620e8-813c-41e9-b438-996d5df7be8b.png"><br>
+- 반응형을 추가하여 모바일 화면에서도 볼 수 있도록 구현했습니다.
+
+<br>
+
 ## 추가하고 싶은 기능
 - 검색 결과로 나온 포켓몬을 클릭하면 모달창으로 세부 정보를 보여주는 기능을 추가하고 싶습니다.
